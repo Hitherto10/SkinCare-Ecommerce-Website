@@ -1,0 +1,258 @@
+/*Global styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navigation{
+    background-color: #171717;
+}
+.c_icon{
+    color: white;
+}
+.c_icon{
+    color: white;
+}
+.navigation ol li a::before{
+    background: white;
+}
+.navigation ol li a{
+    color: white;
+}
+#wt_logo{
+    background: none;
+    color: white;
+}
+.search_box{
+    display:flex;
+    margin:auto 0;
+    height:35px;
+    line-height:35px;
+}
+
+.search_box input{
+    color: white;
+    border-bottom:3px solid white;
+    background: transparent;
+}
+#search_btn{
+    color:white;
+    background:transparent;
+}
+
+/*style for the side bar menu*/
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background: #171717;
+    transition: all 0.5s ease;
+}
+
+
+/*setting the width of the sidebar when closed*/
+.sidebar.close{
+    width: 236px;
+}
+
+/*style for h2*/
+h2 {
+    font-size: 26px;
+    margin: 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    opacity: 1;
+    background-color: rgb(239, 234, 236);
+    padding: 20px;
+}
+
+/*style for the main logo on the cms page*/
+.sidebar .cmsLogo{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*style for icons that represent pages*/
+.sidebar .cmsLogo i{
+    font-size: 30px;
+    color: #ff0000;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/*style for the title of the main logo*/
+.logo_name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.sidebar .cmsLogo .logo_name{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 60;
+    transition: 0.3s ease;
+    transition-delay: 0.1s;
+}
+
+
+/*style for the page names on the side-bar*/
+.link_name{
+    white-space: nowrap;
+    overflow: hidden;
+    /*hide text that exceeds the page name's container'*/
+    text-overflow: clip;
+}
+
+
+/*Set effect for when side bar is closed*/
+.sidebar.close .cmsLogo .logo_name{
+    transition-delay: 0s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/*style for the page links in the sidebar*/
+.sidebar .nav-links{
+    height: 100%;
+    padding: 35vh 0 150px 0;
+    overflow: hidden;
+}
+
+
+/*Remove the list style from the page links */
+.sidebar .nav-links li{
+    list-style: none;
+}
+
+.sidebar .nav-links li:hover{
+    background: #2e2a52;
+}
+
+/*style for the side bar*/
+.sidebar .nav-links li .icon-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*style for the icons for the page links*/
+.sidebar .nav-links li i{
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+/*rotate the arrow that lists database pages by 180 degrees when clicked*/
+.sidebar .nav-links li.showMenu i.arrow{
+    transform: rotate(-180deg);
+
+}
+
+/*remove the arrow when sidebar is closed*/
+.sidebar.close .nav-links i.arrow{
+    display: none;
+}
+
+
+/*style for the side bar page links*/
+.sidebar .nav-links li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/*style for the side bar link names*/
+.sidebar .nav-links li a .link_name{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+
+/*style for the drop down menu for the database*/
+.sidebar .nav-links li .sub-menu{
+    padding: 6px 6px 14px 80px;
+    margin-top: -10px;
+    background: #1d1b31;
+    display: none;
+}
+
+
+/*display the sub menu for editing the data base*/
+.sidebar .nav-links li.showMenu .sub-menu{
+    display: block;
+}
+
+
+/*style for sub menu link text*/
+.sidebar .nav-links li .sub-menu a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+/*style for the container for the log out button*/
+.sidebar .logoutContainer{
+    position: fixed;
+    bottom: 0;
+    width: 236px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1d1b31;
+    padding: 12px 0;
+    transition: all 0.5s ease;
+}
+
+.signoutButton{
+    background: #2e2a52;
+    position: relative;
+    border: none;
+    width: 167px;
+    right: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+/*style for the text contained in the button*/
+.signoutButton span{
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 26px;
+    color: #fff;
+}
+
+.btn-text{
+    position: relative;
+    right: 100px;
+    left: 0.5rem;
+}

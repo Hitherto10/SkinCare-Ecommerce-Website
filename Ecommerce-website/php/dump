@@ -1,0 +1,38 @@
+<script>
+      // orderIds = [];
+      // orderImg = [];
+      // orderModel = [];
+      // orderPrice = [];
+      // orderQuantity = [];
+      // orderStock = [];
+      //
+      // function clearCart(){
+      //     // sessionStorage.clear();
+      //     alert('Purchase successful');
+      //
+      //
+      //     // TO PRINT THE FIRST ID
+      //     const cart = JSON.parse(sessionStorage.getItem('cart'));
+      //     console.log(cart);
+      //
+      //     // TO PRINT ALL THE IDS
+      //     const cart2 = JSON.parse(sessionStorage.getItem('cart'));
+      //     const orderIds = cart2.map(item => item.id);
+      //     const orderImg = cart2.map(item => item.img);
+      //     const orderModel = cart2.map(item => item.model);
+      //     const orderPrice = cart2.map(item => item.price);
+      //     const orderQuantity = cart2.map(item => item.quantity);
+      //     const orderStock = cart2.map(item => item.stock);
+          // console.log(orderIds);
+          // console.log(orderImg);
+          // console.log(orderModel);
+          // console.log(orderPrice);
+          // console.log(orderQuantity);
+          // console.log(orderStock);
+
+
+
+          // window.location.href='home.php';
+      }
+
+  </script>
