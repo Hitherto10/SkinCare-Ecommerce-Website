@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "63e911c3442090b16ad1c0ca"
+  },
+  "name": "The Rich Cream",
+  "brand": "Augustinus Bader",
+  "description": "Hydrating,Moisturising,Brightening",
+  "imagePath": "../assets/NewImages/1.webp",
+  "price": 290,
+  "stock": 50,
+  "category": "Serum"
+},{
+  "_id": {
+    "$oid": "63e911d1442090b16ad1c0cc"
+  },
+  "name": "Resurfacing Compound",
+  "brand": "Beauty",
+  "description": "Anti-aging, Hyperpigmentation removal, Exfoliating",
+  "imagePath": "../assets/NewImages/2.webp",
+  "price": 85,
+  "stock": 50,
+  "category": "Exfoliant"
+},{
+  "_id": {
+    "$oid": "63e911ee442090b16ad1c0ce"
+  },
+  "name": "Vitamin C Serum",
+  "brand": "SkinCeuticals",
+  "description": "Acne healing,Hyperpigmentation removal,Anti-aging",
+  "imagePath": "../assets/NewImages/3.webp",
+  "price": 165,
+  "stock": 50,
+  "category": "Serum"
+},{
+  "_id": {
+    "$oid": "63e910da442090b16ad1c0bc"
+  },
+  "name": "Strengthing Serum",
+  "brand": "Paula's Choice",
+  "description": "Hydrating, Antioxidant-enriched, Anti-aging",
+  "imagePath": "../assets/NewImages/4.webp",
+  "price": 130,
+  "stock": 100,
+  "category": "Serum"
+},{
+  "_id": {
+    "$oid": "63e910ff442090b16ad1c0be"
+  },
+  "name": "Retinal Night",
+  "brand": "Medik8",
+  "description": "Brightening, Anti-aging,Smoother-looking skin",
+  "imagePath": "../assets/NewImages/5.webp",
+  "price": 208,
+  "stock": 50,
+  "category": "Serum"
+},{
+  "_id": {
+    "$oid": "63e91123442090b16ad1c0c0"
+  },
+  "name": "Phyto Corrective Gel",
+  "brand": "SkinCeuticals",
+  "description": "Acne-prone skin, Anti-aging,Hyperpigmentation removal",
+  "imagePath": "../assets/NewImages/6.webp",
+  "price": 145,
+  "stock": 50,
+  "category": "Gel"
+},{
+  "_id": {
+    "$oid": "63e91134442090b16ad1c0c2"
+  },
+  "name": "Acne Patch",
+  "brand": "COSRX",
+  "description": "Hydrocolloid patch, Moisturising, Acne healing",
+  "imagePath": "../assets/NewImages/7.webp",
+  "price": 70,
+  "stock": 50,
+  "category": "Patch"
+},{
+  "_id": {
+    "$oid": "63e9115c442090b16ad1c0c4"
+  },
+  "name": "UV Lip Balm",
+  "brand": "Elta MD",
+  "description": "SPF 36, Water-resistant, Fragrance-free",
+  "imagePath": "../assets/NewImages/8.webp",
+  "price": 55,
+  "stock": 100,
+  "category": "Lip balm"
+},{
+  "_id": {
+    "$oid": "63e9116c442090b16ad1c0c6"
+  },
+  "name": "Clay Masque",
+  "brand": "SkinCeuticals",
+  "description": "Acne healing, Pore cleansing, Skin-refining",
+  "imagePath": "../assets/NewImages/cream.webp",
+  "price": 320,
+  "stock": 50,
+  "category": "Mask"
+},{
+  "_id": {
+    "$oid": "63e911a6442090b16ad1c0c8"
+  },
+  "name": "Hydra-Gel Eye Patch",
+  "brand": "Water Drench",
+  "description": "Hydrating, Moisturising, Dark circles removal",
+  "imagePath": "../assets/NewImages/10.webp",
+  "price": 140,
+  "stock": 100,
+  "category": "Patch"
+},{
+  "_id": {
+    "$oid": "63efa86163a8334feafa3d78"
+  },
+  "name": "Hyaluronic Serum",
+  "brand": "Eminence Organic Skin Care",
+  "description": "Hydrating, Brightening, Repairing",
+  "imagePath": "../assets/NewImages/11.webp",
+  "price": 230,
+  "stock": 100,
+  "category": "Serum"
+},{
+  "_id": {
+    "$oid": "63efa86963a8334feafa3d79"
+  },
+  "name": "Gel Cleanser",
+  "brand": "Epionce",
+  "description": "Cleansing, Acne healing, Brightening",
+  "imagePath": "../assets/NewImages/12.webp",
+  "price": 150,
+  "stock": 100,
+  "category": "Serum"
+}]

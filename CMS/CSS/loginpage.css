@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+/*style applied for all*/
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+/*style applied for elements contained in body*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: -20px 0 50px;
+    background: #dcdcd1;
+}
+
+/*style for <h1> tag*/
+h1 {
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    bottom: 18px;
+}
+
+
+/*style for buttons used*/
+button {
+    border-radius: 20px;
+    background-color: #1d1b31;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+}
+
+/*set style for when button is activated by user*/
+button:active {
+    transform: scale(0.95);
+}
+
+
+/*style for form*/
+form {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    gap: 20px;
+    text-align: center;
+}
+
+
+/*style for input boxes*/
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin: 8px 0;
+    width: 290px;
+}
+
+
+/*Container for the form and the img*/
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    /*shadow for the container*/
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+
+/*Style for the form space in container*/
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+/*style for container picture section*/
+.overlay-container {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+}
+
+
+/*style for the picture overlay*/
+.overlay {
+    color: #FFFFFF;
+    position: relative;
+    right: 100%;
+    height: 100%;
+    width: 200%;
+}
+
+/*login form overlay image*/
+.overlay-panel {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    background: url(../Assets/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
